@@ -1,2 +1,29 @@
-# New Project
-ecommerce website
+# EcoMart: Full-Stack E-commerce Platform
+
+#### EcoMart is an interactive, full stack E-commerce application designed to provide a seamless shopping experience for users.
+
+## Team Details
+
+* Team Number :- 04
+* Total Contributors:- 5
+
+| Student Name | Role | 
+| :----------- | :----|
+| Rajesh Kerketa| System Integration & Auth |
+| Subhrajeet Panda| Product engine |
+| Pratik Tripathy| Cart & Checkout Logic |
+| Sudhir Kumar Tudu| Data & Analytics |
+| Swatej Naik| Admin Dashboard |
+
+###### - Anyone can contribute to design or improve the UI/UX
+
+## Project Timeline
+- Week 1: Requirement Analysis and UI Wireframing
+- Week 2: Core Development(Frontend & Backend)
+- Week 3: Testing, Bug Fixing, Documentation
+- Week 4: Final Deployment & Submission
+
+## Tech Stack 
+- Frontend: React.js, HTML, CSS, JavaScript
+- Backend: Node.js
+- Database: MongoDB
