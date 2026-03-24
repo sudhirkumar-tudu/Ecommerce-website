@@ -13,7 +13,7 @@
 | Subhrajeet Panda| Product engine |
 | Pratik Tripathy| Cart & Checkout Logic |
 | Sudhir Kumar Todo| Data & Analytics |
-| Swatej Naik| Admin Dashboard |
+| Swatej| Admin Dashboard |
 
 ###### - Anyone can contribute to design or improve the UI/UX.
 
