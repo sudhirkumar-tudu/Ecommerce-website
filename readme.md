@@ -9,7 +9,7 @@
 
 | Student Name | Role | 
 | :----------- | :----|
-| Rajesh Kerketa| System Integration & Auth |
+| Rajesh Kerketta| System Integration & Auth |
 | Subhrajeet Panda| Product engine |
 | Pratik Tripathy| Cart & Checkout Logic |
 | Sudhir Kumar Tudu| Data & Analytics |
