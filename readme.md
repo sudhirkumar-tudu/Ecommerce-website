@@ -7,7 +7,7 @@
 * Team Number :- 04
 * Total Contributors:- 5
 
-| Student Name | Reg No | 
+| Student Name | Role | 
 | :----------- | :----|
 | Rajesh Kerketta| Auth & Frontend |
 | Subhrajeet Panda| Product engine and Auth |
@@ -15,7 +15,7 @@
 | Sudhir Kumar Todo| Frontend & System Integration |
 | Swatej Naik| Admin Dashboard |
 
-###### - Anyone can contribute to design or improve the UI/UX
+###### - Anyone can contribute to design or improve the UI/UX.
 
 ## Project Timeline
 - Week 1: Requirement Analysis and UI Wireframing
