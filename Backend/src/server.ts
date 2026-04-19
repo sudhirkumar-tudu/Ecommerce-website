@@ -19,7 +19,8 @@ async function mainEntryFunction() {
  
   app.use(
     cors({
-      origin: corsOrigins,
+      // origin: corsOrigins,
+      origin: true,
       credentials: true
     })
   )
