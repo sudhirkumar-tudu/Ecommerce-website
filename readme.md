@@ -7,7 +7,7 @@
 * Team Number :- 04
 * Total Contributors:- 5
 
-| Student Name | Role | 
+| Student Name | Roles | 
 | :----------- | :----|
 | Rajesh Kerketta| Auth & Frontend |
 | Subhrajeet Panda| Product engine and Auth |
