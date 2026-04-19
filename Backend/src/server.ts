@@ -6,6 +6,9 @@ import morgan from "morgan";
 import { ok } from "./utils/envelope";
 import { errorHandler } from "./middleware/errorHandler";
 import { notFound } from "./middleware/notFound";
+import serverless from "serverless-http";
+import type { VercelRequest, VercelResponse } from "@vercel/node";
+
 
 
 async function mainEntryFunction() {
@@ -32,10 +35,11 @@ async function mainEntryFunction() {
 
   const port = Number(process.env.PORT || 5000);
 
-  app.listen(port, ()=>{
-    console.log(`Server is now listening to port ${port}`);
+  // app.listen(port, ()=>{
+  //   console.log(`Server is now listening to port ${port}`);
     
-  })
+  // })
+ return app;
 
 }
 
@@ -43,3 +47,12 @@ mainEntryFunction().catch(err=> {
   console.error("failed to start", err);
   process.exit(1);
 })
+
+// Create the app then export the serverless handler
+const appPromise = mainEntryFunction();
+
+export const handler = async (req: VercelRequest, res: VercelResponse) => {
+  const app = await appPromise;
+  const handlerFn = serverless(app);
+  return handlerFn(req, res);
+};
