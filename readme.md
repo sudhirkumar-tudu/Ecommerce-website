@@ -1,13 +1,13 @@
-# EcoMart: Full-Stack E-commerce Platform.
+# PureLoom-Full Stack E-commerce Platform.
 
-#### EcoMart is an interactive, full stack E-commerce application designed to provide a seamless shopping experience for users.
+#### PureLoom is an interactive, full stack E-commerce application designed to provide a seamless shopping experience for customers.
 
 ## Team Details
 
 * Team Number :- 04
 * Total Contributors:- 5
 
-| Student Name | Role | 
+| Student Name | Roles | 
 | :----------- | :----|
 | Rajesh Kerketta| Auth & Frontend |
 | Subhrajeet Panda| Product engine and Auth |
